@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    >
+    <include
+        layout="@layout/fragment_fon"/>
+
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:orientation="vertical">
+        <include
+            layout="@layout/toolbar"
+            android:id="@+id/toolbar"
+            />
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:layout_marginLeft="10dp"
+            android:text="@string/ob_avtorу"
+            android:id="@+id/avtor"
+            android:textSize="25sp" android:typeface="serif"
+            android:gravity="center_vertical"
+            android:layout_weight="1"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/o_rodine"
+            android:id="@+id/o_rodine" android:typeface="serif" android:layout_marginLeft="10dp"
+            android:textSize="25sp"
+            android:gravity="center_vertical"
+            android:layout_weight="1"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/po_wk_programe" android:typeface="serif" android:layout_marginLeft="10dp"
+            android:id="@+id/po_wk_programe"
+            android:textSize="25sp"
+            android:gravity="center_vertical"
+            android:layout_weight="1"
+            />
+
+        <TextView
+            android:layout_width="match_parent" android:typeface="serif" android:layout_marginLeft="10dp"
+            android:layout_height="wrap_content"
+            android:text="@string/o_lyubvi"
+            android:id="@+id/po_temam"
+            android:textSize="25sp"
+            android:gravity="center_vertical"
+            android:layout_weight="1"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:typeface="serif" android:layout_marginLeft="10dp"
+            android:text="@string/po_tipu"
+            android:id="@+id/po_tipu"
+            android:textSize="25sp"
+            android:gravity="center_vertical"
+            android:layout_weight="1"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+        <Spinner
+            android:tooltipText="fdfdf"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:entries="@array/spinner"
+            android:gravity="left"
+            android:id="@+id/spinner">
+        </Spinner>
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</FrameLayout>

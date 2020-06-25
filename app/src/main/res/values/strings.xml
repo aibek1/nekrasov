@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Николай Алексеевич Некрасов</string>
+    <string name="title">Николай Алексеевич Некрасов</string>
+    <string name="po_wk_programe"><u>По школьной программе</u></string>
+    <string name="o_lyubvi"><u>О любви</u></string>
+    <string name="po_tipu"><u>О природе</u></string>
+    <string name="o_rodine"><u>О Родине и России</u></string>
+    <string name="ob_avtorу"><u>Об авторе</u></string>
+    <string name="reklama">ca-app-pub-1931078578980537/5353253787</string>
+    <string name="favor">Мои любимые стихи</string>
+
+    <string-array name="spinner">
+        <item> Выбрать шрифт</item>
+        <item> Antelive Bold</item>
+        <item> Airfool</item>
+        <item> Mak-Light</item>
+        <item> Soft Bold</item>
+        <item> Voguer Sans</item>
+        <item> GothamPro-Light</item>
+        <item> mr_Franklin GothicG</item>
+        <item> mr_NewhouseExtraBlackG</item>
+        <item> mr_PaperBoyBG</item>
+        <item> Neothic</item>
+        <item> Goose</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

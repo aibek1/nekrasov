@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:title="uvel"
+        android:id="@+id/uvel"
+        android:icon="@drawable/uvel"
+        android:orderInCategory="1"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:title="umen"
+        android:id="@+id/umen"
+        android:icon="@drawable/umen"
+        android:orderInCategory="1"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/text_format"
+        android:icon="@drawable/shrift"
+        android:orderInCategory="3"
+        app:showAsAction="ifRoom"
+        android:title="Шрифт">
+        <menu>
+            <item android:id="@+id/antelive_bold" android:title="Antelive Bold"/>
+            <item android:id="@+id/airfool" android:title="Airfool"/>
+            <item android:id="@+id/mak_light" android:title="Mak-Light"/>
+            <item android:id="@+id/soft_bold" android:title="Soft Bold"/>
+            <item android:id="@+id/voguer_sans" android:title="Voguer Sans"/>
+            <item android:id="@+id/gotham_pro" android:title="GothamPro-Light"/>
+            <item android:id="@+id/mr_FranklinGothicG" android:title="mr_Franklin GothicG"/>
+            <item android:id="@+id/mr_NewhouseExtraBlackG" android:title="mr_NewhouseExtraBlackG"/>
+            <item android:id="@+id/mmr_PaperBoyBG" android:title="mr_PaperBoyBG"/>
+            <item android:id="@+id/Neothic" android:title="Neothic" />
+            <item android:id="@+id/Goose" android:title="Goose"/>
+        </menu>
+    </item>
+
+</menu>

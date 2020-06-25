@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.hfad.nekrasov">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-1931078578980537~1155720996" />
+
+        <activity
+            android:name=".ORodineDetail"
+            android:label="О Родине и России"
+            android:parentActivityName=".ORodine" />
+        <activity
+            android:name=".ORodine"
+            android:label="О Родине и России"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Avtor"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".OprirodeDetail"
+            android:label="О природе"
+            android:parentActivityName=".Oprirode" />
+        <activity
+            android:name=".OlyubviDetail"
+            android:label="О любви"
+            android:parentActivityName=".Olyubvi" />
+        <activity
+            android:name=".WkolnikamDetail"
+            android:label="По школьной программе"
+            android:parentActivityName=".Wkolnikam" />
+        <activity
+            android:name=".Oprirode"
+            android:label="О природе"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Olyubvi"
+            android:label="О любви"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Wkolnikam"
+            android:label="По школьной программе"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

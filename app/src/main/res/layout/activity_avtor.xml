@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    >
+    <include
+        layout="@layout/fragment_fon"/>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Avtor">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <include
+            layout="@layout/toolbar"
+            android:id="@+id/toolbar"/>
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="300dp"
+            android:layout_gravity="center"
+            android:scaleType="centerCrop"
+            android:src="@drawable/avtor" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ob_avtore"
+            android:layout_gravity="center"
+            android:paddingTop="20dp"
+            android:paddingBottom="50dp"
+            android:padding="10dp"
+            android:textSize="16sp"
+            android:clickable="true"
+            android:focusable="true"
+            android:longClickable="true"
+            android:textIsSelectable="true"
+            android:typeface="normal"/>
+    </LinearLayout>
+</ScrollView>
+</FrameLayout>
